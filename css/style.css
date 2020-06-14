@@ -1,0 +1,75 @@
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing:inherit;
+}
+/*font-family: 'Montserrat', sans-serif;*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #212121;
+    background-color: #F9F6F1;
+}
+
+.container{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header{
+    text-align: center;
+}
+
+.navbar-logo{
+    width: 201px;
+    height: 40px;
+    left: 869px;
+    top: 50px;
+}
+
+.top-menu{
+    width: 100%;
+    position: relative;
+    background: #F9F6F1;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #212121;
+    display: inline-block;
+    padding: 61px 45px;
+}
+
+.menu-main{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.menu-main:after{
+content: "";
+display: table;
+clear: both;
+}
+
+.left-item{
+    float: left;
+    margin-right: 45px;
+    line-height: 35px;}
+.right-item{
+    float: right;
+    margin-left: 45px;
+    line-height: 35px;}
+.navbar-logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.navbar-basket{
+    float: right;
+    margin-left: 101px;
+}
